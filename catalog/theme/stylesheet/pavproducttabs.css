@@ -1,0 +1,31 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/*  
+ * LAYOUT VARIABLES 
+ */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/demo2\.0\/pav_foxs_store\/catalog\/view\/theme\/pav_foxs_store\/development\/scss\/pavproducttabs\.scss}line{font-family:\0000310}}
+.producttabs .tab-nav {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/demo2\.0\/pav_foxs_store\/catalog\/view\/theme\/pav_foxs_store\/development\/scss\/pavproducttabs\.scss}line{font-family:\0000315}}
+.box.producttabs .nav {
+  margin: 0 auto;
+}
