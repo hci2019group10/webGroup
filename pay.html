@@ -1,0 +1,1332 @@
+
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="theme-color" content="#FFFFFF"/>
+<title>Thanh toán</title>
+<link href="catalog/theme/stylesheet/stylesheet.min.css" rel="stylesheet" />
+<link href="catalog/theme/javascript/jquery/owl.carousel.min.css" rel="stylesheet" />
+<link href="catalog/theme/javascript/jquery/owl.transitions.min.css" rel="stylesheet" />
+<script type="text/javascript" src="catalog/theme/javascript/zozo-main.min.js"></script>
+<link href="image/cache/catalog/cart.png" rel="icon" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="catalog/theme/stylesheet_custom/stylesheet.css" rel="stylesheet" />
+</head>
+<body class="keep-header checkout-checkout page-checkout-checkout layout-fullwidth">
+<div class="row-offcanvas row-offcanvas-left">
+<div id="page">
+<div id="header-top">
+<div id="topbar" class="topbar-v1">
+<div class="container">
+<div class="inner clearfix">
+<div class="show-desktop">
+<div class="quick-access">
+<div class="login links hidden-xs">
+<a href="register.html">Đăng ký</a> - <a href="login.html">Đăng nhập</a>
+</div>
+<!-- Single button -->
+<div class="btn-group">
+<div class="dropdown-toggle btn-theme-normal">
+<i class="fa fa-user"></i>
+<span class="fa fa-angle-down"></span>
+</div>
+<div class="quick-setting dropdown-menu">
+<ul>
+<li>
+<a href="#"><span class="fa fa-heart"></span>Yêu thích (0) </a>
+</li>
+<li><a href="login.html"><span class="fa fa-user"></span>Tài khoản</a>
+</li>
+<li>
+<a href="Productbasket.html"></span>Giỏ hàng </a>
+</li>
+<li>
+<a class="last" href="pay.html"><span class="fa fa-file"></span>Thanh toán </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="btn-group">
+<div class="dropdown-toggle btn-theme-normal">
+</div>
+
+</div>
+</div>
+<div class="quick-action ">
+<div id="cart">
+<div data-toggle="dropdown" data-loading-text="Đang tải" class="dropdown-toggle">
+<i class="icon-cart fa fa-shopping-cart"></i>
+<h4 class="hidden">Giỏ hàng</h4>
+<span id="cart-total">1 sản phẩm - 3,685,000đ</span>
+<span class="fa fa-angle-down"></span>
+</div>
+<ul class="dropdown-menu">
+<li>
+<table class="table">
+<tr>
+<td class="text-center">
+<a href="Tui_xach_LV.html"><img src="image/cache/san-pham/TLV3-249x348.jpg" alt="Túi xách LV hàng hiệu của Pháp M94412" title="Túi xách LV hàng hiệu của Pháp M94412" /></a>
+</td>
+<td class="text-left"><a href="Tui_xach_LV.html">Túi xách LV hàng hiệu của Pháp M94412</a>
+</td>
+<td class="text-right">x 1</td>
+<td class="text-right">3,650,000đ</td>
+<td class="text-center"><button type="button" onclick="cart.remove('83');" title="Xóa" class="btn btn-success btn-xs"><i class="fa fa-times"></i></button></td>
+</tr>
+</table>
+</li>
+<li>
+<div>
+<table class="table">
+<tr>
+<td class="text-right"><b>Thành tiền:</b></td>
+<td class="text-right">3,650,000đ</td>
+</tr>
+<tr>
+<td class="text-right"><b>Phí vận chuyển Toàn Quốc:</b></td>
+<td class="text-right">35,000đ</td>
+</tr>
+<tr>
+<td class="text-right"><b>Tổng số:</b></td>
+<td class="text-right">3,685,000đ</td>
+</tr>
+</table>
+<p class="text-right">
+<a class="button btn btn-outline-black" href="Productbasket.html"> Giỏ hàng </a>&nbsp;&nbsp;&nbsp;<a class="button btn btn-outline-black" href="pay.html">Thanh toán</a></p>
+</div>
+</li>
+</ul>
+</div>
+<div class="btn-group search-focus hidden-sm hidden-xs">
+<div class="dropdown-toggle btn-theme-normal">
+<i class="fa fa-search"></i>
+<span class="text-label">Tìm kiếm</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="main-menu mainnav-v1">
+<div class="nav-search visible">
+<div id="search" class="input-group">
+<input type="text" name="search" value="" placeholder="Tìm kiếm" class="form-control input-sm" />
+<span class="input-group-addon button-close">
+<button type="button" class="button-search" style="background: transparent; border: none;"><span class="fa fa-times"></span></button>
+</span>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 logo inner">
+<div id="logo-theme">
+<a href="index.html">
+<img src="image/cache/catalog/logo.png" title="Fox's store" alt="Fox's store" class="img-responsive" />
+</a>
+</div>
+</div>
+<div id="pav-mainnav" class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+<button data-toggle="offcanvas" class="btn btn-warning canvas-menu hidden-lg hidden-md" type="button">
+<span class="fa fa-bars"></span> Menu </button>
+<!--================-->
+<div class="pav-megamenu hidden-sm hidden-xs">
+<div class="navbar navbar-default">
+<div id="mainmenutop" class="megamenu" role="navigation">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle hidden-lg hidden-md collapsed" data-toggle="collapse" data-target="#bs-megamenu">
+<span class="fa fa-bars"></span>
+</button>
+<div id="bs-megamenu" class="collapse navbar-collapse navbar-ex1-collapse hidden-sm hidden-xs">
+<ul class="nav navbar-nav megamenu">
+<li>
+<a href="index.html">
+<span class="menu-title">Trang chủ</span>
+</a>
+</li>
+<li>
+<a href="introduce.html">
+<span class="menu-title">Giới thiệu</span>
+</a>
+</li>
+<li class="parent dropdown aligned-left">
+<a class="dropdown-toggle" data-toggle="dropdown" href="product.html">
+<span class="menu-title">Sản Phẩm</span><b class="caret"></b>
+</a>
+<div class="dropdown-menu level1">
+<div class="dropdown-menu-inner">
+<div class="row">
+<div class="mega-col col-xs-12 col-sm-12 col-md-12" data-type="menu">
+<div class="mega-col-inner">
+<ul>
+<li>
+<a href="male.html">
+<span class="menu-title">Thời trang nam </span>
+</a>
+</li>
+<li>
+<a href="female.html">
+<span class="menu-title">Thời trang nữ </span>
+</a>
+</li>
+<li>
+<a href="spareParts.html">
+<span class="menu-title">Phụ kiện </span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<a href="news.html">
+<span class="menu-title">Tin Tức</span>
+</a>
+</li>
+<li>
+<a href="contact.html">
+<span class="menu-title">Liên hệ</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--================-->
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- sys-notification -->
+<div id="sys-notification">
+<div class="container">
+<div id="notification"></div>
+</div>
+</div>
+<!-- /sys-notification -->
+<link href="catalog/theme/stylesheet/checkOut.css" rel="stylesheet" />
+<div class="container">
+<ul class="breadcrumb">
+<li><a href="index.html"><i class="fa fa-home"></i> Trang chủ</a></li>
+<li><a href="pay.html">Thanh toán</a></li>
+</ul>
+<div class="row">
+<div id="content" class="col-sm-12">
+<div class="row">
+<form method="post" action="" name="checkout_form" id="checkout_form" enctype="multipart/form-data" class="form-horizontal">
+<div class="col-sm-8">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h3 class="panel-title">
+<i class="fa fa-info-circle" aria-hidden="true"></i> Địa chỉ nhận hàng </h3>
+</div>
+<div class="panel-body">
+<!-- Apply for VN -->
+<div class="form-group required">
+<label class="control-label col-md-2" for="input-firstname">Tên đầy đủ</label>
+<div class="col-sm-10">
+<input type="text" name="firstname" id="input-firstname" value="" placeholder="Ví dụ: Nguyễn Văn A" class="form-control"/>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-6">
+<div class="form-group required">
+<label class="control-label col-sm-4" for="input-email">Email</label>
+<div class="col-sm-8">
+<input type="email" name="email" id="input-email" value="" placeholder="contact@yourdomain.com" class="form-control"/>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="form-group required">
+<label class="control-label col-sm-4" for="input-telephone">Điện thoại</label>
+<div class="col-sm-8">
+<input type="text" name="telephone" id="input-telephone" value="" placeholder="Ví dụ: 01234567890" class="form-control"/>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-6">
+<div class="form-group required">
+<label class="control-label col-md-4" for="input-countryid">Quốc gia</label>
+<div class="col-md-8">
+<select name="country_id" id="input-countryid" class="form-control">
+<option value="244">Aaland Islands</option>
+<option value="1">Afghanistan</option>
+<option value="2">Albania</option>
+<option value="3">Algeria</option>
+<option value="4">American Samoa</option>
+<option value="5">Andorra</option>
+<option value="6">Angola</option>
+<option value="7">Anguilla</option>
+<option value="8">Antarctica</option>
+<option value="9">Antigua and Barbuda</option>
+<option value="10">Argentina</option>
+<option value="11">Armenia</option>
+<option value="12">Aruba</option>
+<option value="252">Ascension Island (British)</option>
+<option value="13">Australia</option>
+<option value="14">Austria</option>
+<option value="15">Azerbaijan</option>
+<option value="16">Bahamas</option>
+<option value="17">Bahrain</option>
+<option value="18">Bangladesh</option>
+<option value="19">Barbados</option>
+<option value="20">Belarus</option>
+<option value="21">Belgium</option>
+<option value="22">Belize</option>
+<option value="23">Benin</option>
+<option value="24">Bermuda</option>
+<option value="25">Bhutan</option>
+<option value="26">Bolivia</option>
+<option value="245">Bonaire, Sint Eustatius and Saba</option>
+<option value="27">Bosnia and Herzegovina</option>
+<option value="28">Botswana</option>
+<option value="29">Bouvet Island</option>
+<option value="30">Brazil</option>
+<option value="31">British Indian Ocean Territory</option>
+<option value="32">Brunei Darussalam</option>
+<option value="33">Bulgaria</option>
+<option value="34">Burkina Faso</option>
+<option value="35">Burundi</option>
+<option value="36">Cambodia</option>
+<option value="37">Cameroon</option>
+<option value="38">Canada</option>
+<option value="251">Canary Islands</option>
+<option value="39">Cape Verde</option>
+<option value="40">Cayman Islands</option>
+<option value="41">Central African Republic</option>
+<option value="42">Chad</option>
+<option value="43">Chile</option>
+<option value="44">China</option>
+<option value="45">Christmas Island</option>
+<option value="46">Cocos (Keeling) Islands</option>
+<option value="47">Colombia</option>
+<option value="48">Comoros</option>
+<option value="49">Congo</option>
+<option value="50">Cook Islands</option>
+<option value="51">Costa Rica</option>
+<option value="52">Cote D'Ivoire</option>
+<option value="53">Croatia</option>
+<option value="54">Cuba</option>
+<option value="246">Curacao</option>
+<option value="55">Cyprus</option>
+<option value="56">Czech Republic</option>
+<option value="237">Democratic Republic of Congo</option>
+<option value="57">Denmark</option>
+<option value="58">Djibouti</option>
+<option value="59">Dominica</option>
+<option value="60">Dominican Republic</option>
+<option value="61">East Timor</option>
+<option value="62">Ecuador</option>
+<option value="63">Egypt</option>
+<option value="64">El Salvador</option>
+<option value="65">Equatorial Guinea</option>
+<option value="66">Eritrea</option>
+<option value="67">Estonia</option>
+<option value="68">Ethiopia</option>
+<option value="69">Falkland Islands (Malvinas)</option>
+<option value="70">Faroe Islands</option>
+<option value="71">Fiji</option>
+<option value="72">Finland</option>
+<option value="74">France, Metropolitan</option>
+<option value="75">French Guiana</option>
+<option value="76">French Polynesia</option>
+<option value="77">French Southern Territories</option>
+<option value="126">FYROM</option>
+<option value="78">Gabon</option>
+<option value="79">Gambia</option>
+<option value="80">Georgia</option>
+<option value="81">Germany</option>
+<option value="82">Ghana</option>
+<option value="83">Gibraltar</option>
+<option value="84">Greece</option>
+<option value="85">Greenland</option>
+<option value="86">Grenada</option>
+<option value="87">Guadeloupe</option>
+<option value="88">Guam</option>
+<option value="89">Guatemala</option>
+<option value="256">Guernsey</option>
+<option value="90">Guinea</option>
+<option value="91">Guinea-Bissau</option>
+<option value="92">Guyana</option>
+<option value="93">Haiti</option>
+<option value="94">Heard and Mc Donald Islands</option>
+<option value="95">Honduras</option>
+<option value="96">Hong Kong</option>
+<option value="97">Hungary</option>
+<option value="98">Iceland</option>
+<option value="99">India</option>
+<option value="100">Indonesia</option>
+<option value="101">Iran (Islamic Republic of)</option>
+<option value="102">Iraq</option>
+<option value="103">Ireland</option>
+<option value="254">Isle of Man</option>
+<option value="104">Israel</option>
+<option value="105">Italy</option>
+<option value="106">Jamaica</option>
+<option value="107">Japan</option>
+<option value="257">Jersey</option>
+<option value="108">Jordan</option>
+<option value="109">Kazakhstan</option>
+<option value="110">Kenya</option>
+<option value="111">Kiribati</option>
+<option value="253">Kosovo, Republic of</option>
+<option value="114">Kuwait</option>
+<option value="115">Kyrgyzstan</option>
+<option value="116">Lao People's Democratic Republic</option>
+<option value="117">Latvia</option>
+<option value="118">Lebanon</option>
+<option value="119">Lesotho</option>
+<option value="120">Liberia</option>
+<option value="121">Libyan Arab Jamahiriya</option>
+<option value="122">Liechtenstein</option>
+<option value="123">Lithuania</option>
+<option value="124">Luxembourg</option>
+<option value="125">Macau</option>
+<option value="127">Madagascar</option>
+<option value="128">Malawi</option>
+<option value="129">Malaysia</option>
+<option value="130">Maldives</option>
+<option value="131">Mali</option>
+<option value="132">Malta</option>
+<option value="133">Marshall Islands</option>
+<option value="134">Martinique</option>
+<option value="135">Mauritania</option>
+<option value="136">Mauritius</option>
+<option value="137">Mayotte</option>
+<option value="138">Mexico</option>
+<option value="139">Micronesia, Federated States of</option>
+<option value="140">Moldova, Republic of</option>
+<option value="141">Monaco</option>
+<option value="142">Mongolia</option>
+<option value="242">Montenegro</option>
+<option value="143">Montserrat</option>
+<option value="144">Morocco</option>
+<option value="145">Mozambique</option>
+<option value="146">Myanmar</option>
+<option value="147">Namibia</option>
+<option value="148">Nauru</option>
+<option value="149">Nepal</option>
+<option value="150">Netherlands</option>
+<option value="151">Netherlands Antilles</option>
+<option value="152">New Caledonia</option>
+<option value="153">New Zealand</option>
+<option value="154">Nicaragua</option>
+<option value="155">Niger</option>
+<option value="156">Nigeria</option>
+<option value="157">Niue</option>
+<option value="158">Norfolk Island</option>
+<option value="112">North Korea</option>
+<option value="159">Northern Mariana Islands</option>
+<option value="160">Norway</option>
+<option value="161">Oman</option>
+<option value="162">Pakistan</option>
+<option value="163">Palau</option>
+<option value="247">Palestinian Territory, Occupied</option>
+<option value="164">Panama</option>
+<option value="165">Papua New Guinea</option>
+<option value="166">Paraguay</option>
+<option value="167">Peru</option>
+<option value="168">Philippines</option>
+<option value="169">Pitcairn</option>
+<option value="170">Poland</option>
+<option value="171">Portugal</option>
+<option value="172">Puerto Rico</option>
+<option value="173">Qatar</option>
+<option value="174">Reunion</option>
+<option value="175">Romania</option>
+<option value="176">Russian Federation</option>
+<option value="177">Rwanda</option>
+<option value="178">Saint Kitts and Nevis</option>
+<option value="179">Saint Lucia</option>
+<option value="180">Saint Vincent and the Grenadines</option>
+<option value="181">Samoa</option>
+<option value="182">San Marino</option>
+<option value="183">Sao Tome and Principe</option>
+<option value="184">Saudi Arabia</option>
+<option value="185">Senegal</option>
+<option value="243">Serbia</option>
+<option value="186">Seychelles</option>
+<option value="187">Sierra Leone</option>
+<option value="188">Singapore</option>
+<option value="189">Slovak Republic</option>
+<option value="190">Slovenia</option>
+<option value="191">Solomon Islands</option>
+<option value="192">Somalia</option>
+<option value="193">South Africa</option>
+<option value="194">South Georgia &amp; South Sandwich Islands</option>
+<option value="113">South Korea</option>
+<option value="248">South Sudan</option>
+<option value="195">Spain</option>
+<option value="196">Sri Lanka</option>
+<option value="249">St. Barthelemy</option>
+<option value="197">St. Helena</option>
+<option value="250">St. Martin (French part)</option>
+<option value="198">St. Pierre and Miquelon</option>
+<option value="199">Sudan</option>
+<option value="200">Suriname</option>
+<option value="201">Svalbard and Jan Mayen Islands</option>
+<option value="202">Swaziland</option>
+<option value="203">Sweden</option>
+<option value="204">Switzerland</option>
+<option value="205">Syrian Arab Republic</option>
+<option value="206">Taiwan</option>
+<option value="207">Tajikistan</option>
+<option value="208">Tanzania, United Republic of</option>
+<option value="209">Thailand</option>
+<option value="210">Togo</option>
+<option value="211">Tokelau</option>
+<option value="212">Tonga</option>
+<option value="213">Trinidad and Tobago</option>
+<option value="255">Tristan da Cunha</option>
+<option value="214">Tunisia</option>
+<option value="215">Turkey</option>
+<option value="216">Turkmenistan</option>
+<option value="217">Turks and Caicos Islands</option>
+<option value="218">Tuvalu</option>
+<option value="219">Uganda</option>
+<option value="220">Ukraine</option>
+<option value="221">United Arab Emirates</option>
+<option value="222">United Kingdom</option>
+<option value="223">United States</option>
+<option value="224">United States Minor Outlying Islands</option>
+<option value="225">Uruguay</option>
+<option value="226">Uzbekistan</option>
+<option value="227">Vanuatu</option>
+<option value="228">Vatican City State (Holy See)</option>
+<option value="229">Venezuela</option>
+<option value="230" selected="selected">Việt Nam</option>
+<option value="231">Virgin Islands (British)</option>
+<option value="232">Virgin Islands (U.S.)</option>
+<option value="233">Wallis and Futuna Islands</option>
+<option value="234">Western Sahara</option>
+<option value="235">Yemen</option>
+<option value="238">Zambia</option>
+<option value="239">Zimbabwe</option>
+</select>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="form-group required">
+<label class="control-label col-md-4" for="input-zoneid" id="label-zone">Tỉnh / TP</label>
+<div class="col-md-8">
+<span id="load-ajax-zone">
+<select name="zone_id" id="input-zoneid" class="form-control"></select>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-6">
+<div class="form-group required">
+<label class="control-label col-md-4" for="input-address">Quận / Huyện</label>
+<div class="col-sm-8">
+<span id="load-ajax-ward">
+<select name="ward_id" id="input-wardid" onchange="loadListShipping()" class="form-control"></select>
+</span>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="form-group required">
+<label class="control-label col-md-4" for="input-address">Địa chỉ chi tiết</label>
+<div class="col-sm-8">
+<input type="text" name="address_1" value="" id="input-address" placeholder="Ví dụ: Số 247, Cầu Giấy, Q. Cầu Giấy" class="form-control"/>
+</div>
+</div>
+</div>
+</div>
+<div class="form-group">
+<label class="control-label col-md-2" for="input-zoneid" id="label-zone">Lời nhắn</label>
+<div class="col-sm-10">
+<textarea name="comment" id="input-comment" rows="3" class="form-control" placeholder="Ví dụ: Chuyển hàng ngoài giờ hành chính"></textarea>
+</div>
+</div>
+<hr/>
+<div class="form-group">
+<div class="col-sm-12">
+<div class="adr-oms checkbox">
+<input type="checkbox" name="same_info_as_buyer_toggle" id="is-delivery-address" onclick="showHideDeliveryAddress()" checked/>
+<label for="is-delivery-address"><strong>Địa chỉ nhận hàng và thanh toán giống nhau</strong></label>
+</div>
+</div>
+</div>
+<div id="container-form-address-ship">
+<h4>Thông tin thanh toán</h4>
+<!-- Apply for VN -->
+<div class="form-group required">
+<label class="control-label col-md-2" for="input-payment-firstname">Tên đầy đủ</label>
+<div class="col-sm-10">
+<input type="text" name="payment_firstname" id="input-payment-firstname" value="" placeholder="Ví dụ: Nguyễn Văn A" class="form-control"/>
+</div>
+</div>
+<div class="form-group required">
+<label class="control-label col-md-2" for="input-payment-telephone">Điện thoại</label>
+<div class="col-md-4">
+<input type="text" name="payment_telephone" id="input-payment-telephone" value="" placeholder="Ví dụ: 01234567890" class="form-control"/>
+</div>
+<label class="control-label col-md-2" for="input-payment-email">Email</label>
+<div class="col-md-4">
+<input type="email" name="payment_email" id="input-payment-email" value="" placeholder="contact@yourdomain.com" class="form-control"/>
+</div>
+</div>
+<div class="form-group required">
+<label class="control-label col-md-2" for="input-countryid">Quốc gia</label>
+<div class="col-md-4">
+<select name="payment_country_id" id="input-payment-countryid" class="form-control">
+<option value="244">Aaland Islands</option>
+<option value="1">Afghanistan</option>
+<option value="2">Albania</option>
+<option value="3">Algeria</option>
+<option value="4">American Samoa</option>
+<option value="5">Andorra</option>
+<option value="6">Angola</option>
+<option value="7">Anguilla</option>
+<option value="8">Antarctica</option>
+<option value="9">Antigua and Barbuda</option>
+<option value="10">Argentina</option>
+<option value="11">Armenia</option>
+<option value="12">Aruba</option>
+<option value="252">Ascension Island (British)</option>
+<option value="13">Australia</option>
+<option value="14">Austria</option>
+<option value="15">Azerbaijan</option>
+<option value="16">Bahamas</option>
+<option value="17">Bahrain</option>
+<option value="18">Bangladesh</option>
+<option value="19">Barbados</option>
+<option value="20">Belarus</option>
+<option value="21">Belgium</option>
+<option value="22">Belize</option>
+<option value="23">Benin</option>
+<option value="24">Bermuda</option>
+<option value="25">Bhutan</option>
+<option value="26">Bolivia</option>
+<option value="245">Bonaire, Sint Eustatius and Saba</option>
+<option value="27">Bosnia and Herzegovina</option>
+<option value="28">Botswana</option>
+<option value="29">Bouvet Island</option>
+<option value="30">Brazil</option>
+<option value="31">British Indian Ocean Territory</option>
+<option value="32">Brunei Darussalam</option>
+<option value="33">Bulgaria</option>
+<option value="34">Burkina Faso</option>
+<option value="35">Burundi</option>
+<option value="36">Cambodia</option>
+<option value="37">Cameroon</option>
+<option value="38">Canada</option>
+<option value="251">Canary Islands</option>
+<option value="39">Cape Verde</option>
+<option value="40">Cayman Islands</option>
+<option value="41">Central African Republic</option>
+<option value="42">Chad</option>
+<option value="43">Chile</option>
+<option value="44">China</option>
+<option value="45">Christmas Island</option>
+<option value="46">Cocos (Keeling) Islands</option>
+<option value="47">Colombia</option>
+<option value="48">Comoros</option>
+<option value="49">Congo</option>
+<option value="50">Cook Islands</option>
+<option value="51">Costa Rica</option>
+<option value="52">Cote D'Ivoire</option>
+<option value="53">Croatia</option>
+<option value="54">Cuba</option>
+<option value="246">Curacao</option>
+<option value="55">Cyprus</option>
+<option value="56">Czech Republic</option>
+<option value="237">Democratic Republic of Congo</option>
+<option value="57">Denmark</option>
+<option value="58">Djibouti</option>
+<option value="59">Dominica</option>
+<option value="60">Dominican Republic</option>
+<option value="61">East Timor</option>
+<option value="62">Ecuador</option>
+<option value="63">Egypt</option>
+<option value="64">El Salvador</option>
+<option value="65">Equatorial Guinea</option>
+<option value="66">Eritrea</option>
+<option value="67">Estonia</option>
+<option value="68">Ethiopia</option>
+<option value="69">Falkland Islands (Malvinas)</option>
+<option value="70">Faroe Islands</option>
+<option value="71">Fiji</option>
+<option value="72">Finland</option>
+<option value="74">France, Metropolitan</option>
+<option value="75">French Guiana</option>
+<option value="76">French Polynesia</option>
+<option value="77">French Southern Territories</option>
+<option value="126">FYROM</option>
+<option value="78">Gabon</option>
+<option value="79">Gambia</option>
+<option value="80">Georgia</option>
+<option value="81">Germany</option>
+<option value="82">Ghana</option>
+<option value="83">Gibraltar</option>
+<option value="84">Greece</option>
+<option value="85">Greenland</option>
+<option value="86">Grenada</option>
+<option value="87">Guadeloupe</option>
+<option value="88">Guam</option>
+<option value="89">Guatemala</option>
+<option value="256">Guernsey</option>
+<option value="90">Guinea</option>
+<option value="91">Guinea-Bissau</option>
+<option value="92">Guyana</option>
+<option value="93">Haiti</option>
+<option value="94">Heard and Mc Donald Islands</option>
+<option value="95">Honduras</option>
+<option value="96">Hong Kong</option>
+<option value="97">Hungary</option>
+<option value="98">Iceland</option>
+<option value="99">India</option>
+<option value="100">Indonesia</option>
+<option value="101">Iran (Islamic Republic of)</option>
+<option value="102">Iraq</option>
+<option value="103">Ireland</option>
+<option value="254">Isle of Man</option>
+<option value="104">Israel</option>
+<option value="105">Italy</option>
+<option value="106">Jamaica</option>
+<option value="107">Japan</option>
+<option value="257">Jersey</option>
+<option value="108">Jordan</option>
+<option value="109">Kazakhstan</option>
+<option value="110">Kenya</option>
+<option value="111">Kiribati</option>
+<option value="253">Kosovo, Republic of</option>
+<option value="114">Kuwait</option>
+<option value="115">Kyrgyzstan</option>
+<option value="116">Lao People's Democratic Republic</option>
+<option value="117">Latvia</option>
+<option value="118">Lebanon</option>
+<option value="119">Lesotho</option>
+<option value="120">Liberia</option>
+<option value="121">Libyan Arab Jamahiriya</option>
+<option value="122">Liechtenstein</option>
+<option value="123">Lithuania</option>
+<option value="124">Luxembourg</option>
+<option value="125">Macau</option>
+<option value="127">Madagascar</option>
+<option value="128">Malawi</option>
+<option value="129">Malaysia</option>
+<option value="130">Maldives</option>
+<option value="131">Mali</option>
+<option value="132">Malta</option>
+<option value="133">Marshall Islands</option>
+<option value="134">Martinique</option>
+<option value="135">Mauritania</option>
+<option value="136">Mauritius</option>
+<option value="137">Mayotte</option>
+<option value="138">Mexico</option>
+<option value="139">Micronesia, Federated States of</option>
+<option value="140">Moldova, Republic of</option>
+<option value="141">Monaco</option>
+<option value="142">Mongolia</option>
+<option value="242">Montenegro</option>
+<option value="143">Montserrat</option>
+<option value="144">Morocco</option>
+<option value="145">Mozambique</option>
+<option value="146">Myanmar</option>
+<option value="147">Namibia</option>
+<option value="148">Nauru</option>
+<option value="149">Nepal</option>
+<option value="150">Netherlands</option>
+<option value="151">Netherlands Antilles</option>
+<option value="152">New Caledonia</option>
+<option value="153">New Zealand</option>
+<option value="154">Nicaragua</option>
+<option value="155">Niger</option>
+<option value="156">Nigeria</option>
+<option value="157">Niue</option>
+<option value="158">Norfolk Island</option>
+<option value="112">North Korea</option>
+<option value="159">Northern Mariana Islands</option>
+<option value="160">Norway</option>
+<option value="161">Oman</option>
+<option value="162">Pakistan</option>
+<option value="163">Palau</option>
+<option value="247">Palestinian Territory, Occupied</option>
+<option value="164">Panama</option>
+<option value="165">Papua New Guinea</option>
+<option value="166">Paraguay</option>
+<option value="167">Peru</option>
+<option value="168">Philippines</option>
+<option value="169">Pitcairn</option>
+<option value="170">Poland</option>
+<option value="171">Portugal</option>
+<option value="172">Puerto Rico</option>
+<option value="173">Qatar</option>
+<option value="174">Reunion</option>
+<option value="175">Romania</option>
+<option value="176">Russian Federation</option>
+<option value="177">Rwanda</option>
+<option value="178">Saint Kitts and Nevis</option>
+<option value="179">Saint Lucia</option>
+<option value="180">Saint Vincent and the Grenadines</option>
+<option value="181">Samoa</option>
+<option value="182">San Marino</option>
+<option value="183">Sao Tome and Principe</option>
+<option value="184">Saudi Arabia</option>
+<option value="185">Senegal</option>
+<option value="243">Serbia</option>
+<option value="186">Seychelles</option>
+<option value="187">Sierra Leone</option>
+<option value="188">Singapore</option>
+<option value="189">Slovak Republic</option>
+<option value="190">Slovenia</option>
+<option value="191">Solomon Islands</option>
+<option value="192">Somalia</option>
+<option value="193">South Africa</option>
+<option value="194">South Georgia &amp; South Sandwich Islands</option>
+<option value="113">South Korea</option>
+<option value="248">South Sudan</option>
+<option value="195">Spain</option>
+<option value="196">Sri Lanka</option>
+<option value="249">St. Barthelemy</option>
+<option value="197">St. Helena</option>
+<option value="250">St. Martin (French part)</option>
+<option value="198">St. Pierre and Miquelon</option>
+<option value="199">Sudan</option>
+<option value="200">Suriname</option>
+<option value="201">Svalbard and Jan Mayen Islands</option>
+<option value="202">Swaziland</option>
+<option value="203">Sweden</option>
+<option value="204">Switzerland</option>
+<option value="205">Syrian Arab Republic</option>
+<option value="206">Taiwan</option>
+<option value="207">Tajikistan</option>
+<option value="208">Tanzania, United Republic of</option>
+<option value="209">Thailand</option>
+<option value="210">Togo</option>
+<option value="211">Tokelau</option>
+<option value="212">Tonga</option>
+<option value="213">Trinidad and Tobago</option>
+<option value="255">Tristan da Cunha</option>
+<option value="214">Tunisia</option>
+<option value="215">Turkey</option>
+<option value="216">Turkmenistan</option>
+<option value="217">Turks and Caicos Islands</option>
+<option value="218">Tuvalu</option>
+<option value="219">Uganda</option>
+<option value="220">Ukraine</option>
+<option value="221">United Arab Emirates</option>
+<option value="222">United Kingdom</option>
+<option value="223">United States</option>
+<option value="224">United States Minor Outlying Islands</option>
+<option value="225">Uruguay</option>
+<option value="226">Uzbekistan</option>
+<option value="227">Vanuatu</option>
+<option value="228">Vatican City State (Holy See)</option>
+<option value="229">Venezuela</option>
+<option value="230" selected="selected">Việt Nam</option>
+<option value="231">Virgin Islands (British)</option>
+<option value="232">Virgin Islands (U.S.)</option>
+<option value="233">Wallis and Futuna Islands</option>
+<option value="234">Western Sahara</option>
+<option value="235">Yemen</option>
+<option value="238">Zambia</option>
+<option value="239">Zimbabwe</option>
+</select>
+</div>
+<label class="control-label col-md-2" for="input-payment-zoneid" id="label-payment-zone">Tỉnh / TP</label>
+<div class="col-md-4">
+<span id="load-ajax-payment-zone">
+<select name="payment_zone_id" id="input-payment-zoneid" class="form-control"></select>
+</span>
+</div>
+</div>
+<div class="form-group required">
+<label class="control-label col-md-2" for="input-payment-address">Địa chỉ chi tiết</label>
+<div class="col-sm-10">
+<input type="text" name="payment_address_1" value="" id="input-payment-address" placeholder="Ví dụ: Số 247, Cầu Giấy, Q. Cầu Giấy" class="form-control"/>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<div class="adr-oms checkbox">
+<input type="checkbox" name="update_address" id="update-address" checked />&nbsp;&nbsp;<label for="update-address">Cập nhật thông tin trên làm địa chỉ hiện tại của tôi</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h3 class="panel-title">
+<i class="fa fa-credit-card" aria-hidden="true"></i> Phương thức thanh toán </h3>
+</div>
+<div class="panel-body" id="form_payment_method">
+<div class="group">
+<div class="adr-oms radio select-method">
+<input type="radio" id="payment-method-bank_transfer" name="payment_method" value="bank_transfer" />
+<label for="payment-method-bank_transfer">
+<div class="adr-oms payment-method">
+<div class="thumbnail">
+<img alt="Chuyển khoản" src="image/cache/payment/bank_transfer.png" />
+
+ </div>
+ <div class="description">
+  <div class="title">Chuyển khoản</div>
+  <div class="subtitle">Sử dụng thẻ ATM hoặc dịch vụ Internet Banking để tiến hành chuyển khoản cho chúng tôi</div>
+  <div class="tkz-selection-info"></div>
+</div>
+
+</div>
+</label>
+<div class="payment-method-toggle box-installment installment-disabled"	id="payment-method-info-bank_transfer">
+<div class="disabled-cod-body">Thông tin thanh toán</div>
+</div>
+</div>
+</div>
+<div class="group">
+<div class="adr-oms radio select-method">
+<input type="radio" id="payment-method-cod" name="payment_method" value="cod" />
+<label for="payment-method-cod">
+<div class="adr-oms payment-method">
+<div class="thumbnail">
+<img alt="Thu tiền tại nhà (COD)" src="image/cache/payment/cod.png" />
+</div>
+<div class="description">
+<div class="title">Thu tiền tại nhà (COD)</div>
+<div class="subtitle">Khách hàng thanh toán bằng tiền mặt cho nhân viên giao hàng khi sản phẩm được chuyển tới địa chỉ nhận hàng</div>
+<div class="tkz-selection-info"></div>
+</div>
+</div>
+</label>
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h3 class="panel-title">
+<div class="adr-oms checkbox">
+<input type="checkbox" name="invoice" id="request-invoice" onclick="showHideInvoice();" />
+<label for="request-invoice">Yêu cầu xuất hoá đơn GTGT</label>
+</div>
+</h3>
+</div>
+<div class="panel-body" id="container-form-invoice">
+<div class="form-group">
+<label class="control-label col-md-2" for="input-taxcode">Mã số thuế</label>
+<div class="col-sm-10">
+<input type="text" name="tax_code" id="input-taxcode" value="" placeholder="Ví dụ: 398473094385" class="form-control"/>
+</div>
+</div>
+<div class="form-group">
+<label class="control-label col-md-2" for="input-company">Tên công ty</label>
+<div class="col-sm-10">
+<input type="text" name="company" id="input-company" value="" placeholder="Ví dụ: Công ty Cổ phần ASIA" class="form-control"/>
+</div>
+</div>
+<div class="form-group">
+<label class="control-label col-md-2" for="input-company-address">Địa chỉ công ty</label>
+<div class="col-sm-10">
+<input type="text" name="company_address" id="input-company-address" value="" placeholder="Ví dụ: 247 Cầu Giấy, Hà Nội, P. Dịch Vọng, Q. Cầu Giấy, TP. Hà Nội" class="form-control"/>
+</div>
+</div>
+<div class="form-group">
+<div class="col-sm-12">
+<i>Lưu ý: Giá trị hóa đơn không bao gồm giá trị của Mã giảm giá</i>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h3 class="panel-title">
+<i class="fa fa-shopping-cart" aria-hidden="true"></i> Đơn hàng</strong> (1 sản phẩm) </h3>
+</div>
+<div class="panel-body">
+<table class="adr-oms table table_order_items">
+<tbody id="orderItem">
+<tr class="group-type-1 item-child-0">
+<td>
+<div class="table_order_items-cell-thumbnail">
+<div class="thumbnail">
+<a target="_blank" rel="noopener" href="Tui_xach_LV.html" title="Túi xách LV hàng hiệu của Pháp M94412">
+<img src="image/cache/san-pham/TLV3-249x348.jpg" alt="Túi xách LV hàng hiệu của Pháp M94412" width="84" />
+</a>
+</div>
+</div>
+<div class="table_order_items-cell-detail">
+<div class="table_order_items-cell-title">
+<div class="table_order_items_product_name">
+<a target="_blank" rel="noopener" href="Tui_xach_LV.html" title="Túi xách LV hàng hiệu của Pháp M94412">
+<span class="title">Túi xách LV hàng hiệu của Pháp M94412</span></a>
+</div>
+</div>
+</div>
+<div class="table_order_items-cell-price">
+<div class="tt-price">3,650,000đ</div>
+<div class="quantity">x1</div>
+<div class="tt-price">3,650,000đ</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h3 class="panel-title">
+<i class="fa fa-truck" aria-hidden="true"></i> Vận chuyển</h3>
+</div>
+<div class="panel-body">
+<div class="form-group">
+<div class="col-sm-12">
+<span id="ajax-load-shipping-method">
+<div><strong>Phí giao hàng tận nơi</strong></div>
+<div class="radio">
+<label>
+<input type="radio" name="shipping_method" onclick="updateFee()" value="geo.geo" checked/> Phí giao hàng tận nơi - 0đ </label>
+</div>
+</span>
+</div>
+</div>
+</div>
+</div>
+<!-- call extension total module -->
+<div class="panel panel-default">
+<div class="panel-heading">
+<h3 class="panel-title">
+<a href="#collapse-coupon" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"><i class="fa fa-tag"></i> Sử dụng Mã giảm giá <i class="fa fa-caret-down"></i></a></h3>
+</div>
+<div id="collapse-coupon" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="form-group">
+<div class="col-sm-12">
+<span id="show_notice_coupon"></span>
+<div class="input-group">
+<input type="text" name="coupon" value="" placeholder="Nhập mã Giảm giá" id="input-coupon" class="form-control"/>
+<span class="input-group-btn">
+<input class="btn btn-primary" type="button" value="Áp dụng" id="button-coupon" data-loading-text="Đang áp dụng"/>
+</span>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h3 class="panel-title">
+<a href="#collapse-voucher" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"><i class="fa fa-gift"></i> Sử dụng Phiếu quà tặng <i class="fa fa-caret-down"></i></a></h3>
+</div>
+<div id="collapse-voucher" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="form-group">
+<div class="col-sm-12">
+<span id="show_notice_voucher"></span>
+<div class="input-group">
+<input type="text" name="voucher" value="" placeholder="Nhập mã Phiếu" id="input-voucher" class="form-control"/>
+<span class="input-group-btn">
+<input class="btn btn-primary" type="button" value="Áp dụng" id="button-voucher" data-loading-text="Đang áp dụng"/>
+</span>
+</div>
+<span id="load-input-hidden"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- call extension total -->
+<div class="panel panel-default" id="ajax-load-total">
+<div class="panel-body">
+<table class="adr-oms table">
+<tbody class="orderSummary">
+<tr class="row-total-amount">
+<td class="text-left">Thành tiền</td>
+<td class="text-right">
+<strong class="">3,650,000đ</strong>
+</td>
+</tr>
+<tr class="row-total-amount">
+<td class="text-left">Phí vận chuyển Toàn Quốc</td>
+<td class="text-right">
+<strong class="">35,000đ</strong>
+</td>
+</tr>
+<tr class="row-total-amount">
+<td class="text-left">Tổng số</td>
+<td class="text-right">
+<strong class="text-danger">3,685,000đ</strong>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="text-center">
+<a class="pull-left" href="productBasket.html" title="Quay lại giỏ hàng">
+<i class="fa fa-mail-reply-all" aria-hidden="true"></i> Quay lại giỏ hàng </a>
+<button class="btn btn-primary pull-right" type="button" id="submit_form_button" onclick="$('form#checkout_form').submit();"><a href="index.html">Đặt hàng</a> <i class="fa fa-angle-right"></i></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript"> $(document).ready(function () { var html = ''; html += '<a href="'; html += "javascript:void(0)"; html += '" target="'; html += "_self"; html += '"><img src="'; html += "https://foxsstore.exdomain.net/image/cache/catalog/banner/paypal-55x15.png"; html += '" alt="'; html += "paypal"; html += '" /></a>'; $('#footer #powered .paypal').append(html); }); </script><script type="text/javascript"> $(document).ready(function () { var html = ''; html += '<a href="'; html += "javascript:void(0)"; html += '" target="'; html += "_self"; html += '"><img src="'; html += "https://foxsstore.exdomain.net/image/cache/catalog/banner/visa-37x16.png"; html += '" alt="'; html += "Visa"; html += '" /></a>'; $('#footer #powered .paypal').append(html); }); </script><script type="text/javascript"> $(document).ready(function () { var html = ''; html += '<a href="'; html += "javascript:void(0)"; html += '" target="'; html += "_self"; html += '"><img src="'; html += "https://foxsstore.exdomain.net/image/cache/catalog/banner/mastercard-26x16.png"; html += '" alt="'; html += "master card"; html += '" /></a>'; $('#footer #powered .paypal').append(html); }); </script>
+<div id="sevice_for_footer_2084191064">
+<div class="box-module-pavreassurances margin_top ">
+<div class="row box-outer text-center">
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<div class="reassurances-center">
+<span class="icon-name fa fa-truck alignleft"></span>
+<br />
+<div class="description">
+<h4>Miễn phí giao hàng</h4>
+<p>Áp dụng cho đơn hàng từ 1,000,000</p>
+<!-- Button trigger modal -->
+<button type="button" class="arrow" data-toggle="modal" data-target="#myModal1">
+<i class="fa fa-long-arrow-right"></i>
+</button>
+<div class="mask" style="display:none;"><p><br /></p></div>
+</div>
+</div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<span class="icon-name fa fa-truck alignleft"></span>
+<div class="description">
+<h4>Miễn phí giao hàng</h4>
+<p>Áp dụng cho đơn hàng từ 1,000,000</p>
+</div>
+</div>
+<div class="modal-body"><p><br /></p></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">X</button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<div class="reassurances-center">
+<span class="icon-name fa fa-retweet alignleft"></span>
+<br />
+<div class="description">
+<h4>Ưu đãi khi đặt hàng</h4>
+<p>Giảm 5% cho đơn hàng thanh toán online</p>
+<!-- Button trigger modal -->
+<button type="button" class="arrow" data-toggle="modal" data-target="#myModal2">
+<i class="fa fa-long-arrow-right"></i>
+</button>
+<div class="mask" style="display:none;"><p><br /></p></div>
+</div>
+</div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<span class="icon-name fa fa-retweet alignleft"></span>
+<div class="description">
+<h4>Ưu đãi khi đặt hàng</h4>
+<p>Giảm 5% cho đơn hàng thanh toán online</p>
+</div>
+</div>
+<div class="modal-body"><p><br /></p></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">X</button>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<div class="reassurances-center">
+<span class="icon-name fa fa-money alignleft"></span>
+<br />
+<div class="description">
+<h4>Hỗ trợ 24/7</h4>
+<p>Tư vấn nhiệt tình</p>
+<!-- Button trigger modal -->
+<button type="button" class="arrow" data-toggle="modal" data-target="#myModal3">
+<i class="fa fa-long-arrow-right"></i>
+</button>
+<div class="mask" style="display:none;"><p><br /></p></div>
+</div>
+</div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<span class="icon-name fa fa-money alignleft"></span>
+<div class="description">
+<h4>Hỗ trợ 24/7</h4>
+<p>Tư vấn nhiệt tình</p>
+</div>
+</div>
+<div class="modal-body"><p><br /></p></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">X</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script !src=""> $(document).ready(function () { $('#footer #pavo-footer-center .this_is_footer_service').append(document.getElementById('sevice_for_footer_2084191064')); }) </script>
+<script type="text/javascript"> $(document).ready(function(){ if($('#is-delivery-address').is(":checked") == true){ $('#container-form-address-ship').css('display', 'none'); } else { $('#container-form-address-ship').css('display', 'block'); } }); function showHideDeliveryAddress(){ var toggle_info_payment = $('#is-delivery-address').is(":checked"); if(toggle_info_payment == true){ $('#container-form-address-ship').css('display', 'none'); } else { $('#container-form-address-ship').css('display', 'block'); } } </script>
+<script type="text/javascript"> $(document).ready(function(){ if($('#request-invoice').is(":checked") == true){ $('#container-form-invoice').show(); } else { $('#container-form-invoice').hide(); } }); function showHideInvoice(){ var toggle_invoice = $('#request-invoice').is(":checked"); if(toggle_invoice == true){ $('#container-form-invoice').css('display', 'block'); } else { $('#container-form-invoice').css('display', 'none'); } } </script>
+<footer id="footer">
+<div class="footer-top " id="pavo-footer-top">
+<div class="container">
+<div class="inner">
+<div class="row">
+<div class="col-lg-12 col-md-12 column ">
+<div class="pav-custom pav-newsletter" id="newsletter_1235383836">
+<form id="formNewLestter1235383836" method="post" class="formNewLestter" action="/tool/newsletter">
+<div class="content">
+<div class="wapper box col-lg-9 col-md-9 col-sm-12 col-xs-12">
+<div class="description box-heading">
+<span>Đăng ký nhận tin</span><br />
+</div>
+<div class="input-form">
+<input type="text" class="form-control input-md inputNew email" onblur="javascript:if(this.value=='')this.value='Nhập email tại đây...';" onfocus="javascript:if(this.value=='Nhập email tại đây...')this.value='';" value="Nhập email tại đây..." size="18" name="email" />
+</div>
+<div class="button-submit">
+<button type="submit" name="submitNewsletter" class="btn btn-warning">Đăng ký!</button>
+</div>
+<input type="hidden" value="1" name="action" />
+<div class="valid"></div>
+</div>
+<div class=" col-lg-3 col-md-3 col-sm-12 col-xs-12">
+<div class="social">
+<a class="facebook" data-original-title="Facebook" data-placement="top" data-toggle="tooltip" href="http://facebook.com/FacebokVietNam" title="">
+<i class="fa fa-facebook">&nbsp; </i>
+</a>
+<a class="twitter" data-original-title="Twitter" data-placement="top" data-toggle="tooltip" href="#" title="">
+<i class="fa fa-twitter">&nbsp; </i>
+</a>
+<a class="youtube" data-original-title="Youtube" data-placement="top" data-toggle="tooltip" href="#" title="">
+<i class="fa fa-youtube">&nbsp; </i>
+</a>
+<a class="dribbble" data-original-title="Instagram" data-placement="top" data-toggle="tooltip" href="#" title="">
+<i class="fa fa-instagram">&nbsp; </i>
+</a>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-center " id="pavo-footer-center">
+<div class="container">
+<div class="inner">
+<div class="row">
+<div class="col-lg-6 col-md-6 column ">
+<div class="box pav-custom ">
+<div class="box-content">
+<h3>Fox's store</h3>
+<p>Chúng tôi mang đến những sản phẩm do cửa hàng tự thiết kế, mang đến cho khách hàng nhiều sự lựa chọn về kiểu dáng cũng như phong cách. Sản phẩm được cửa hàng làm từ chất liệu tốt nhất. Sự hài lòng của khách hàng là mục tiêu hàng đầu của chúng tôi.</p>
+</div>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 column this_is_footer_service"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom">
+<div class="container">
+<div class="inner">
+<div class="row">
+<div class="column col-xs-12 col-sm-6 col-lg-6 col-md-6">
+<div class="box pav-custom ">
+<div class="box-heading"><span>Liên hệ</span></div>
+<ul class="list">
+<li>
+<strong>Địa chỉ:</strong>
+<a href="javascript:void(0)">A12, Đinh Tiên Hoàng, Q. Hoàn Kiếm, Hà Nội</a>
+</li>
+<li>
+<strong>Điện thoại:</strong>
+<a href="tel:0123456789">0123456789</a>
+</li>
+<li>
+<strong>Email:</strong>
+<a href="mailto:contact@yourdomain.com">contact@yourdomain.com</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="column col-xs-12 col-sm-6 col-lg-6 col-md-6">
+<div class="box text-right">
+<div class="box-heading"></div>
+<div class="fb-page" data-href="http://facebook.com/FacebokVietNam" data-tabs="none" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+<blockquote cite="http://facebook.com/FacebokVietNam" class="fb-xfbml-parse-ignore">
+<a href="http://facebook.com/FacebokVietNam">Facebook</a>
+</blockquote>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="powered">
+<div class="container">
+<div class="copyright">&copy; Copyright 2017-2020 Fox's store. </div>
+<div class="paypal"></div>
+</div>
+</div>
+<div id="top"><a class="scrollup" href="#"><i class="fa fa-angle-up"></i>Top</a></div>
+</footer>
+</div><!--end #page-->
+<!--menu mobile-->
+<div class="sidebar-offcanvas visible-xs visible-sm">
+<div class="offcanvas-inner panel-offcanvas">
+<div class="offcanvas-heading">
+<button data-toggle="offcanvas" class="btn btn-default" type="button"><span class="fa fa-times"></span></button>
+</div>
+<div class="offcanvas-body">
+<div id="offcanvasmenu"></div>
+</div>
+<div class="offcanvas-footer panel-footer">
+<div class="input-group" id="offcanvas-search">
+<input type="text" class="form-control" placeholder="Search" value="" name="search">
+<span class="input-group-btn">
+<button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+</span>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript"> $("#offcanvasmenu").html($("#bs-megamenu").html()); </script>
+</div><!--end .row-offcanvas.row-offcanvas-left-->
+<!-- Facebook script -->
+<div id="fb-root"></div>
+<script type="text/javascript"> (function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.2&appId=829732533863539"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk')); </script>
+</body>
+</html>
